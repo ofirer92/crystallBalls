@@ -33,7 +33,7 @@ namespace demo.TestClass
         [Test]
         [TestCase(TestName = "group By None", Category = "group By testing", Description = "This test uses a simple input value")]
         //[TestCase(TestName = "group By Animal group", Category = "group By testing", Description = "This test uses a simple input value")]
-        //[TestCase(TestName = "group By Lactation", Category = "group By testing", Description = "This test uses a simple input value")]
+        // to add [TestCase(TestName = "group By Lactation", Category = "group By testing", Description = "This test uses a simple input value")]
         public void t2()
         {
             main.getGroupBy_btn_List()[1].Click();
